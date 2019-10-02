@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.UnityEngine;
 
 namespace ConsoleApplication1
 {
@@ -38,5 +39,26 @@ namespace ConsoleApplication1
                 b = b -1;
             return b;
         }
+         // input : 0-2^31-1
+         // output : random number in there
+        public static int Rand1()
+        {   
+            Random Rand1 = new Random();
+            int x = Rand1.Next(0, 2^31-1);
+            return x;
+        }
+         public static float Rand2()
+        {
+            Random Rand2 = new Random();
+            float x = Random.Range(0.0f, 3.0f);
+            return x;
+
+        }
+         public long Factorial(long n)
+         {
+             for (int i = 2; i < n; i++)
+                 n = n * i;
+             return n;
+         }
     }
 }
