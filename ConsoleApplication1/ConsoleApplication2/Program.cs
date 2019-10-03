@@ -13,9 +13,8 @@ namespace ConsoleApplication2
         {}
            public static float Rand2()
         {
-            Random Rand2 = new Random();
-            var x = Random.Rand2(0.0f,1.0f);
-            return x;
+
+            return 0;
 
         }
         }

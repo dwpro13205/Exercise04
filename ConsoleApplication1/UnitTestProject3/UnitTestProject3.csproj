@@ -54,9 +54,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ConsoleApplication1\ConsoleApplication1.csproj">
-      <Project>{519f18b4-7e3d-476f-a68a-649ffd3535a9}</Project>
-      <Name>ConsoleApplication1</Name>
+    <ProjectReference Include="..\ConsoleApplication3\ConsoleApplication3.csproj">
+      <Project>{c3ece17d-e276-4c04-aebf-bb0049a0f8c1}</Project>
+      <Name>ConsoleApplication3</Name>
     </ProjectReference>
   </ItemGroup>
   <Choose>

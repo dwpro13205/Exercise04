@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.UnityEngine;
+
 
 namespace ConsoleApplication1
 {
@@ -49,9 +49,7 @@ namespace ConsoleApplication1
         }
          public static float Rand2()
         {
-            Random Rand2 = new Random();
-            float x = Random.Range(0.0f, 3.0f);
-            return x;
+            return 0;
 
         }
          public long Factorial(long n)
